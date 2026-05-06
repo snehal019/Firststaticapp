@@ -26,7 +26,7 @@ function Login()
 };
 return(
             <>
-            <h2> Login</h2>
+            <h2> my Login</h2>
             <input type="text" placeholder="username" onChange={(e) =>setUsername(e.target.value)}/>
             
             <input type="password" placeholder="password" onChange= {(e) =>setPassword(e.target.value)}/>
